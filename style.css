@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 2px solid white;
+    background-color: black;
+    overflow: hidden;
+}
+
+#spaceship {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url(images/spaceship.png);
+    background-size: contain;
+    left: 0;
+}
+
+#planet {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url(images/planet.png);
+    background-size: contain;
+    bottom: 0;
+    right: 0;
+}
+
+#score {
+    position: absolute;
+    color: white;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+}
+
+footer {
+    position: absolute;
+    padding-inline: 10px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #e51d81;
+    color: white;
+}
